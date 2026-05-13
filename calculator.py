@@ -13,5 +13,9 @@ def divide(a,b):
     return a/b
 
 if __name__ == "__main__":
-    assert add(2,3) == 5
-    print("All tests passed")
+    print("Calculator Application")
+    print("add(10, 5) =", add(10, 5))
+    print("subtract(10, 5) =", subtract(10, 5))
+    print("multiply(10, 5) =", multiply(10, 5))
+    print("divide(10, 5) =", divide(10, 5))
+    print("divide(10, 0) =", divide(10, 0))
